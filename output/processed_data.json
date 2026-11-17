@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-11-17T18:08:28",
+  "records_count": 4,
+  "records": [
+    {
+      "file_name": "greeting_de.txt",
+      "source_encoding": "cp1250",
+      "original_text": "Grüß Gott! Dies ist eine Testdatei auf Deutsch.\nSie enthält Groß- und Kleinbuchstaben sowie Umlaute: ä ö ü ß.\n",
+      "processed_text": "gRÜSS gOTT! dIES IST EINE tESTDATEI AUF dEUTSCH.\nsIE ENTHÄLT gROSS- UND kLEINBUCHSTABEN SOWIE uMLAUTE: Ä Ö Ü SS.\n",
+      "size_bytes": 110,
+      "last_modified": "2026-11-17T17:48:37"
+    },
+    {
+      "file_name": "greeting_en.txt",
+      "source_encoding": "ascii",
+      "original_text": "Hello, World! This is a test file in English.\nIt Has Mixed CASE Letters for the Case-Swap task.\n",
+      "processed_text": "hELLO, wORLD! tHIS IS A TEST FILE IN eNGLISH.\niT hAS mIXED case lETTERS FOR THE cASE-sWAP TASK.\n",
+      "size_bytes": 96,
+      "last_modified": "2026-11-17T17:48:37"
+    },
+    {
+      "file_name": "greeting_fr.txt",
+      "source_encoding": "cp850",
+      "original_text": "Bonjour le monde! Ceci est un fichier de test en franþais.\nIl contient des Lettres MAJUSCULES et minuscules, ainsi que des accents: Ú Þ Ó þ.\n",
+      "processed_text": "bONJOUR LE MONDE! cECI EST UN FICHIER DE TEST EN FRANÞAIS.\niL CONTIENT DES lETTRES majuscules ET MINUSCULES, AINSI QUE DES ACCENTS: ú þ ó Þ.\n",
+      "size_bytes": 141,
+      "last_modified": "2026-11-17T17:48:37"
+    },
+    {
+      "file_name": "greeting_ru.txt",
+      "source_encoding": "utf_8",
+      "original_text": "Привет, мир! Это тестовый файл на русском языке.\nЗдесь есть Заглавные и строчные Буквы.\n",
+      "processed_text": "пРИВЕТ, МИР! эТО ТЕСТОВЫЙ ФАЙЛ НА РУССКОМ ЯЗЫКЕ.\nзДЕСЬ ЕСТЬ зАГЛАВНЫЕ И СТРОЧНЫЕ бУКВЫ.\n",
+      "size_bytes": 158,
+      "last_modified": "2026-11-17T17:48:37"
+    }
+  ]
+}
