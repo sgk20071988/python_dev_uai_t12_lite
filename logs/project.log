@@ -47,3 +47,32 @@
 2026-11-17 18:08:28 | INFO     | Запись добавлена: greeting_ru.txt
 2026-11-17 18:08:28 | INFO     | JSON записан: /home/sgk1988/УИИ/Python - разработчик/Тема 12/python_dev_uai_t12_lite/output/processed_data.json (4 записей, 1976 байт)
 2026-11-17 18:08:28 | INFO     | ============================================================
+2026-11-17 18:15:28 | INFO     | ============================================================
+2026-11-17 18:15:28 | INFO     | Запуск Задания 3 (часть 1): 2026-11-17T18:15:28
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/raw/greeting_en.txt
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/raw/greeting_fr.txt
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/raw/greeting_ru.txt
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/raw/greeting_de.txt
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/processed/greeting_ru_processed.txt
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/processed/greeting_fr_processed.txt
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/processed/greeting_en_processed.txt
+2026-11-17 18:15:28 | INFO     | Добавлен в архив: data/processed/greeting_de_processed.txt
+2026-11-17 18:15:28 | INFO     | Архив создан: backup_20261117.zip (8 файлов, 2005 байт)
+2026-11-17 18:15:28 | INFO     | Задание 3 (часть 1) завершено: /home/sgk1988/УИИ/Python - разработчик/Тема 12/python_dev_uai_t12_lite/backups/backup_20261117.zip
+2026-11-17 18:15:28 | INFO     | ============================================================
+2026-11-17 18:15:43 | INFO     | ============================================================
+2026-11-17 18:15:43 | INFO     | Запуск Задания 3 (часть 2): 2026-11-17T18:15:43
+2026-11-17 18:15:43 | INFO     | Выбран архив для восстановления: backup_20261117.zip
+2026-11-17 18:15:43 | INFO     | CRC-проверка архива пройдена.
+2026-11-17 18:15:43 | INFO     | Архив распакован в /home/sgk1988/УИИ/Python - разработчик/Тема 12/python_dev_uai_t12_lite/data_restored (8 файлов)
+2026-11-17 18:15:43 | INFO     | OK: processed/greeting_de_processed.txt (sha256=8404dd66b1d0…)
+2026-11-17 18:15:43 | INFO     | OK: processed/greeting_en_processed.txt (sha256=2475574966d8…)
+2026-11-17 18:15:43 | INFO     | OK: processed/greeting_fr_processed.txt (sha256=cf38ea1172d9…)
+2026-11-17 18:15:43 | INFO     | OK: processed/greeting_ru_processed.txt (sha256=6ffd36eefe92…)
+2026-11-17 18:15:43 | INFO     | OK: raw/greeting_de.txt (sha256=eaeba241bcc2…)
+2026-11-17 18:15:43 | INFO     | OK: raw/greeting_en.txt (sha256=47aef2e05b90…)
+2026-11-17 18:15:43 | INFO     | OK: raw/greeting_fr.txt (sha256=1e08b7924732…)
+2026-11-17 18:15:43 | INFO     | OK: raw/greeting_ru.txt (sha256=a0510959ff9f…)
+2026-11-17 18:15:43 | INFO     | Целостность подтверждена: 8 файлов совпадают побайтово.
+2026-11-17 18:15:43 | INFO     | Результат проверки: УСПЕХ
+2026-11-17 18:15:43 | INFO     | ============================================================

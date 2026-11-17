@@ -1,0 +1,2 @@
+Bonjour le monde! Ceci est un fichier de test en français.
+Il contient des Lettres MAJUSCULES et minuscules, ainsi que des accents: é è à ç.
