@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/processed_files_info.schema.json",
+  "title": "ProcessedFilesInfo",
+  "type": "object",
+  "required": [
+    "generated_at",
+    "records_count",
+    "files"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "records_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/file_info"
+      }
+    }
+  },
+  "$defs": {
+    "file_info": {
+      "type": "object",
+      "required": [
+        "file_name",
+        "full_path",
+        "size_bytes",
+        "created_at",
+        "modified_at"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "file_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "full_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "size_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modified_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}
