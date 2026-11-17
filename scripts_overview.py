@@ -55,28 +55,33 @@ README_TEXT = """\
 YYYY-MM-DD HH:MM:SS | LEVEL | message
 
 ### Схема зависимостей
+
+```
 task1.py
-│
-▼
+   │
+   ▼
 task2.py ──────────► task2_serialize.py
-│ │
-▼ ▼
-task3_backup.py output/processed_data.json
-│
-▼
+   │                       │
+   ▼                       ▼
+task3_backup.py      output/processed_data.json
+   │
+   ▼
 backups/backup_YYYYMMDD.zip
-│
-▼
+   │
+   ▼
 task3_restore.py ──► data_restored/ (проверка целостности по SHA-256)
 
 task4_serialize.py ──► output/processed_files_info.json
-│
-▼
+   │
+   ▼
 task4_validate.py ──► проверка по JSON Schema
-│
-▼
+
+run_all.py ─────────► последовательный запуск task1..task4_validate
+                      (+ output/timings.json)
+
 task5_report.py ────► output/report.md, output/report.pdf
 scripts_overview.py ► README.md (этот файл)
+```
 
 ### Структура проекта
 project_root/
