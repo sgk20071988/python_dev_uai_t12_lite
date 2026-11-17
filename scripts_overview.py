@@ -454,17 +454,6 @@ PDF-рендерер (в `task5_report.py`) использует ту же мо�
 перегенерировать после изменений в скриптах. Это артефакт, а не «забытый»
 файл в репозитории.
 
----
-
-## Как воспроизвести
-
-```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
-
-python run_all.py           # задания 1–4 + timings.json
-python task5_report.py      # report.md + report.pdf
-python scripts_overview.py  # README.md (этот файл)
 """
 
 def main() -> None:

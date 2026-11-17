@@ -1,4 +1,4 @@
-<!-- Сгенерировано: 2026-11-17T19:10:11 -->
+<!-- Сгенерировано: 2026-11-17T19:11:32 -->
 <!-- Файл создан scripts_overview.py; правки вносите в README_TEXT. -->
 
 # Домашнее задание: файлы, пути, кодировки, сериализация данных
@@ -424,14 +424,3 @@ PDF-рендерер (в `task5_report.py`) использует ту же мо�
 перегенерировать после изменений в скриптах. Это артефакт, а не «забытый»
 файл в репозитории.
 
----
-
-## Как воспроизвести
-
-```bash
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
-python run_all.py           # задания 1–4 + timings.json
-python task5_report.py      # report.md + report.pdf
-python scripts_overview.py  # README.md (этот файл)
