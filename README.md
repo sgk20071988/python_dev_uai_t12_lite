@@ -1,4 +1,4 @@
-<!-- Сгенерировано: 2026-11-17T19:07:30 -->
+<!-- Сгенерировано: 2026-11-17T19:10:11 -->
 <!-- Файл создан scripts_overview.py; правки вносите в README_TEXT. -->
 
 # Домашнее задание: файлы, пути, кодировки, сериализация данных
@@ -54,35 +54,55 @@ scripts_overview.py ► README.md (этот файл)
 ```
 
 ### Структура проекта
+
+```
 project_root/
-├── config.py
-├── file_info.py
-├── report_model.py
-├── task1.py
-├── task2.py
-├── task2_serialize.py
-├── task3_backup.py
-├── task3_restore.py
-├── task4_serialize.py
-├── task4_validate.py
-├── task5_report.py
-├── scripts_overview.py
-├── requirements.txt
-├── README.md
-├── data/ # генерируется task1.py
-│ ├── raw/
-│ └── processed/
-├── data_restored/ # генерируется task3_restore.py
-├── backups/ # генерируется task3_backup.py
-├── logs/
-│ └── project.log # пишется всеми модулями
-└── output/ # JSON-артефакты и отчёты
-├── processed_data.json
-├── processed_files_info.json
-├── processed_files_info.schema.json
-├── timings.json
-├── report.md
-└── report.pdf
+├── config.py                    # пути и настройки проекта
+├── file_info.py                 # класс FileInfo (метаданные о файле)
+├── report_model.py              # модель отчёта + Markdown-рендерер
+├── task1.py                     # Задание 1: структура + файлы в разных кодировках
+├── task2.py                     # Задание 2.1: чтение, определение кодировки, swapcase
+├── task2_serialize.py           # Задание 2.2: JSON с исходным/преобразованным текстом
+├── task3_backup.py              # Задание 3.1: zip-архив data/
+├── task3_restore.py             # Задание 3.2: восстановление + проверка целостности
+├── task4_serialize.py           # Задание 4.1: FileInfo → JSON
+├── task4_validate.py            # Задание 4.2: валидация по JSON Schema
+├── task5_report.py              # Задание 5: отчёт в Markdown + PDF
+├── scripts_overview.py          # генератор этого README.md
+├── requirements.txt             # внешние зависимости
+├── README.md                    # этот файл (генерируется)
+│
+├── data/                        # генерируется task1.py
+│   ├── raw/                     # исходные файлы (UTF-8, ISO-8859-1)
+│   │   ├── greeting_ru.txt
+│   │   ├── greeting_en.txt
+│   │   ├── greeting_de.txt
+│   │   └── greeting_fr.txt
+│   └── processed/               # обработанные файлы (всегда UTF-8)
+│       ├── greeting_ru_processed.txt
+│       ├── greeting_en_processed.txt
+│       ├── greeting_de_processed.txt
+│       └── greeting_fr_processed.txt
+│
+├── data_restored/               # генерируется task3_restore.py (проверка)
+│   └── data/
+│       ├── raw/
+│       └── processed/
+│
+├── backups/                     # генерируется task3_backup.py
+│   └── backup_YYYYMMDD.zip
+│
+├── logs/                        # пишется всеми модулями
+│   └── project.log              # единый лог (UTF-8)
+│
+└── output/                      # JSON-артефакты и отчёты
+    ├── processed_data.json              # Задание 2
+    ├── processed_files_info.json        # Задание 4
+    ├── processed_files_info.schema.json # Задание 4 (схема)
+    ├── timings.json                     # run_all.py
+    ├── report.md                        # Задание 5
+    └── report.pdf                       # Задание 5
+```
 
 ---
 
