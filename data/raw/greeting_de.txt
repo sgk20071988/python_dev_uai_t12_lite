@@ -1,0 +1,2 @@
+Grüß Gott! Dies ist eine Testdatei auf Deutsch.
+Sie enthält Groß- und Kleinbuchstaben sowie Umlaute: ä ö ü ß.

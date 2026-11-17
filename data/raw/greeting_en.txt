@@ -1,0 +1,2 @@
+Hello, World! This is a test file in English.
+It Has Mixed CASE Letters for the Case-Swap task.
